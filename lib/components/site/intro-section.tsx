@@ -34,8 +34,12 @@ export function IntroSection() {
       </h2>
 
       <p className="text-md text-foreground my-5 leading-relaxed">
-        I&apos;m excited to share the best work of my career with you. My
-        portfolio breaks down into 3 parts:
+        I&apos;m excited to share the best work of my career with you. Take a
+        moment to familiarise yourself with the entire website, if you want to
+        learn what my taste is like.
+      </p>
+      <p className="text-md text-foreground my-5 leading-relaxed">
+        My portfolio breaks down into 3 parts:
       </p>
 
       <ol className="p-4 space-y-5 list-decimal text-muted-foreground leading-relaxed pl-8">
@@ -54,9 +58,8 @@ export function IntroSection() {
       </ol>
 
       <p className="text-foreground my-5 leading-loose">
-        Take a moment to familiarise yourself with the entire website, if you
-        want to learn what my taste is like. Also, if your team obsessed with
-        aesthetics and perfectly crafted software design, I'm on the market!
+        If your team is obsessed with aesthetics and crafting perfectly designed
+        software, I'm on the market!
       </p>
     </section>
   );
